@@ -16,7 +16,11 @@ image: /posts/axyz.jpg
         <li>
           <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>  
           <div class="title">
-            <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+            {% if post.external_url %}
+  <a href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer" class="hover-underline">{{ post.title }}</a>
+{% else %}
+  <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+{% endif %}
           </div>
           <div class="categories">
             {% for categorie in post.categories -%}
