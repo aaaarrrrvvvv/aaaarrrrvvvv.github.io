@@ -17,10 +17,18 @@ html[transition] {
   transition: all 500ms ease;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
   max-width: 680px;
   padding: 0 14px;
   margin: 0 auto;
 }
+
+main {
+  flex-grow: 1; 
+}
+
 * {
   -webkit-tap-highlight-color: transparent;
 }
@@ -128,9 +136,15 @@ input:-webkit-autofill {
   user-select: auto;
 }
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 15px 0;
   font-size: 15px;
+  width: 100%;
+  box-sizing: border-box; /* Prevents padding from breaking layout */
 }
+
 .footer a {
   text-decoration: underline;
   color: #000000;
@@ -202,5 +216,11 @@ input:-webkit-autofill {
   .header .menu a {
     margin: 2px 5px;
     font-size: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .footer {
+    flex-direction: column;
+    gap: 5px;
   }
 }
