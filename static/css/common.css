@@ -204,3 +204,8 @@ input:-webkit-autofill {
     font-size: 20px;
   }
 }
+a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  color: #888;
+}
