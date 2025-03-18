@@ -17,24 +17,10 @@ html[transition] {
   transition: all 500ms ease;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  font-family: Inter, Helvetica, sans-serif;
-  background: #fff;
-  color: #000;
-}
-
-main {
-  flex-grow: 1;
-  width: 100%;
   max-width: 680px;
-  margin: 0 auto;
   padding: 0 14px;
-  box-sizing: border-box;
+  margin: 0 auto;
 }
-
 * {
   -webkit-tap-highlight-color: transparent;
 }
@@ -141,21 +127,14 @@ input:-webkit-autofill {
   white-space: nowrap;
   user-select: auto;
 }
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
+.footer {
+  padding: 15px 0;
   font-size: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #fff; 
 }
-
-footer a {
-  text-decoration: none;
-  color: #000;
-  padding: 0 5px;
+.footer a {
+  text-decoration: underline;
+  color: #000000;
+  padding: 0 4px;
   white-space: nowrap;
 }
 .footer-btn {
@@ -223,11 +202,5 @@ footer a {
   .header .menu a {
     margin: 2px 5px;
     font-size: 20px;
-  }
-}
-@media (max-width: 500px) {
-  footer {
-    flex-direction: column;
-    gap: 5px;
   }
 }
