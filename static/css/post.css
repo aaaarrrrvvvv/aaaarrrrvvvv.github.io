@@ -153,10 +153,10 @@
 }
 @media screen and (max-width: 560px) {
   .page-post {
-    font-size: 16px;
+    font-size: 19px;
   }
   .page-post pre code {
-    font-size: 16px;
+    font-size: 19px;
   }
   .page-post .post > * {
     margin: 15px 0;
