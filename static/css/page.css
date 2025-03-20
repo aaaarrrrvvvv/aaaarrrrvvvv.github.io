@@ -1,5 +1,5 @@
 .list-post > h2 {
-  font-size: 15px;
+  font-size: 21px;
   font-weight: bold;
   padding: 12px 0;
 }
@@ -13,7 +13,7 @@
 }
 .list-post li .date {
   color: #000000;
-  font-size: 17px;
+  font-size: 21px;
   flex-shrink: 0;
   margin-right: 10px;
 }
@@ -26,7 +26,7 @@
   text-overflow: ellipsis;
 }
 .list-post li .title a {
-  font-size: 17px;
+  font-size: 21px;
 }
 .list-post li .categories {
   flex-shrink: 0;
@@ -34,12 +34,12 @@
   margin-left: 10px;
 }
 .list-post li .categories a {
-  font-size: 17px;
+  font-size: 21px;
   color: #000000;
   margin-left: 8px;
 }
 .list-category h2 {
-  font-size: 15px;
+  font-size: 21px;
   font-weight: bold;
   padding: 12px 0;
 }
@@ -55,21 +55,21 @@
 }
 .page-search #search-input {
   text-align: center;
-  font-size: 14px;
+  font-size: 21px;
   border: 1px solid #eaeaea;
   width: 100%;
   padding: 10px 0;
   background-color: transparent;
 }
 .page-search h1 {
-  font-size: 16px;
+  font-size: 21px;
   height: 46px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
 }
 .page-search h1 i {
-  font-size: 20px;
+  font-size: 21px;
   margin-left: 6px;
 }
 .page-search .list-search li {
@@ -91,7 +91,7 @@
 }
 .page-search .list-search .content {
   display: block;
-  font-size: 14px;
+  font-size: 21px;
   color: #5a5a5a;
   word-break: break-all;
   padding: 10px 0;
@@ -109,7 +109,7 @@
     padding: 6px 0;
   }
   .list-post li .title a {
-    font-size: 17px;
+    font-size: 21px;
   }
   .list-post .categories {
     display: none;
@@ -118,11 +118,11 @@
     padding: 10px 0;
   }
   .list-category div a {
-    font-size: 14px;
+    font-size: 21px;
   }
 }
 .welcome {
-  font-size: 17px
+  font-size: 21px
   border-left: 3px solid #333333;
   background-color: #ededed;
   padding: 9px 9px 9px 15px;
