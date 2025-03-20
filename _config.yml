@@ -22,8 +22,8 @@ kramdown:
   syntax_highlighter: rouge
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
-domainUrl: 'https://visbaina.github.io'
-baseurl: '/yyy'
+domainUrl: 'https://visbaina.github.io/yyy'
+baseurl: ''
 
 google_analytics: ""
 
