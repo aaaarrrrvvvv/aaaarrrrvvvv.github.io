@@ -63,10 +63,6 @@
   text-decoration: none;
 }
 
-/* Hover effect — keeps the original style */
-.list-post li .title a:hover {
-  text-decoration: underline;
-}
 .list-category h2 {
   font-size: 21px;
   font-weight: bold;
