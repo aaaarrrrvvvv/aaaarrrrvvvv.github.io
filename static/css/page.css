@@ -126,7 +126,7 @@
     padding: 6px 0;
   }
   .list-post li .title a {
-    font-size: 21px;
+    font-size: 19px;
   }
   .list-post .categories {
     display: none;
@@ -135,11 +135,11 @@
     padding: 10px 0;
   }
   .list-category div a {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 .welcome {
-  font-size: 21px
+  font-size: 19px
   border-left: 3px solid #333333;
   background-color: #ededed;
   padding: 9px 9px 9px 15px;
