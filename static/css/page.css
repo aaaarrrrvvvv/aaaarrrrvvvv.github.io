@@ -12,10 +12,12 @@
   flex-direction: column; /* Stack rows vertically */
   padding: 8px 0;
   gap: 4px; /* Space between rows */
-  border-bottom: 1px solid #000000; /* Black line under each post */
+  border-bottom: 0.5px solid #000000; /* Black line under each post */
   padding: 8px 0;
 }
-
+.list-post li:last-child {
+  border-bottom: none; /* Removes the line after the last item */
+}
 /* First row: Date and categories side by side */
 .list-post li .meta {
   display: flex;
