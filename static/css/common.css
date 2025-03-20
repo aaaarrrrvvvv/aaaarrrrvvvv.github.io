@@ -8,7 +8,7 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Lora,Alic,serif;
+  font-family: Inter,Helvetica Neue,Helvetica,sans-serif;
   font-stretch: normal;
   font-feature-settings: "kern" on,"liga" on,"calt" on,"tnum" off,"case" off,"rlig" on,"zero" off,"ss01" off;
   overflow-y: overlay;
