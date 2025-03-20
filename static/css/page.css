@@ -9,31 +9,26 @@
 
 .list-post li {
   display: flex;
-  flex-direction: column; /* Stack rows vertically */
+  flex-direction: column; 
   padding: 8px 0;
-  gap: 4px; /* Space between rows */
-  border-bottom: 0.5px solid #000000; /* Black line under each post */
+  gap: 4px; 
+  border-bottom: 0.5px solid #000000;
   padding: 8px 0;
 }
 .list-post li:last-child {
-  border-bottom: none; /* Removes the line after the last item */
+  border-bottom: none;
 }
-/* First row: Date and categories side by side */
 .list-post li .meta {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }
-
-/* Date styling */
 .list-post li .date {
   color: #000000;
   font-size: 12px;
   flex-shrink: 0;
 }
-
-/* Category styling */
 .list-post li .categories {
   display: flex;
   flex-wrap: wrap;
@@ -48,15 +43,13 @@
   color: #000000;
   text-decoration: none;
 }
-
-/* Second row: Title styling */
 .list-post li .title {
   padding: 4px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal; 
+  overflow: visible; 
+  text-overflow: clip; 
+  word-break: break-word;
 }
-
 .list-post li .title a {
   font-size: 21px;
   color: #000000;
