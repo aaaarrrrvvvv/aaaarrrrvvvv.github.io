@@ -14,7 +14,7 @@ image: /posts/axyz.jpg
       <ul>
     {%- endif %}
         <li>
-          <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>  
+          <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>  
           <div class="title">
             {% if post.external_url %}
   <a href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer" class="hover-underline">{{ post.title }}</a>
