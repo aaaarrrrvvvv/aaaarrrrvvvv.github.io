@@ -129,11 +129,21 @@ input:-webkit-autofill {
   user-select: auto;
 }
 .footer {
-  padding: 15px 0;
-  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  position: relative;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
 }
 .footer a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000000;
   padding: 0 4px;
   white-space: nowrap;
