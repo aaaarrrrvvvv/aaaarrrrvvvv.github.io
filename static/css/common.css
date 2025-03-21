@@ -134,6 +134,7 @@ input:-webkit-autofill {
   align-items: center;
   font-size: 18px;
   position: relative;
+  padding: 25px 0;
 }
 
 .social-links {
