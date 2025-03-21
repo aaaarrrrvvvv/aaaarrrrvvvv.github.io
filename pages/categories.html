@@ -22,7 +22,7 @@ permalink: /categories/
     <li>
       <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
       <div class="title">
-        <a href="{{ post.url | relative_url }}" class="hover-underline">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="hover-underline">{{ post.title }}</a>
       </div>
     </li>
     {%- endfor %}
