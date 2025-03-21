@@ -151,6 +151,9 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
+.spacing-extra {
+  margin-top: 20px;
+}
 @media screen and (max-width: 560px) {
   .page-post {
     font-size: 18px;
