@@ -129,12 +129,13 @@
   }
   .list-post .categories {
     display: none;
+    font-size: 12px;
   }
   .list-category h2 {
     padding: 10px 0;
   }
   .list-category div a {
-    font-size: 19px;
+    font-size: 12px;
   }
 }
 .welcome {
