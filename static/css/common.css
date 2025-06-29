@@ -108,13 +108,10 @@ input:-webkit-autofill {
   justify-content: space-between;
 }
 .header .logo {
-  flex-shrink: 0;
-  width: 36px;
-  height: 105px;
-  margin-right: 10px;
-  -webkit-user-drag: none;
-  background-image: url(../img/logo.png);
-  background-size: cover;
+    flex-shrink: 0;
+    margin-right: 10px;
+    font-size: 21px;
+    text-decoration: none;
 }
 .header .menu {
   margin-right: -9px;
