@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Manrope:wght@200..800&display=swap');
 html {
   color: #000000;
   background: #ffffff;
@@ -8,7 +9,7 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Golos Text,Helvetica,sans-serif;
   font-stretch: normal;
   font-feature-settings: "kern" on,"liga" on,"calt" on,"tnum" off,"case" off,"rlig" on,"zero" off,"ss01" off;
   overflow-y: overlay;
