@@ -24,8 +24,8 @@ include:
   - pages
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
-domainUrl: 'https://visbaina.github.io'
-baseurl: '/yyy'
+domainUrl: 'https://aaaarrrrvvvv.github.io'
+baseurl: ''
 
 google_analytics: ""
 
@@ -36,3 +36,4 @@ extAdsense: false
 extMath: false
 
 extCount: false
+
