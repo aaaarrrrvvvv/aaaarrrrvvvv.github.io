@@ -6,14 +6,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-title: sirva
-description: ajiglaltuud
-url: "https://visbaina.github.io/yyy"
-tagline: ajiglaltuud
+title: Дөрвөн зуу
+description: Дал
+url: "https://aaaarrrrvvvv.github.io"
+tagline: Арван хоёр
 logo: "/static/img/logo.jpg"
-keywords: hun, soyol, tuuj
-author: sirva
-footerText: '2025 sirva'
+keywords: 
+author: 
+footerText: 'Зүүн'
 
 permalink: /:slug/
 kramdown:
@@ -36,4 +36,5 @@ extAdsense: false
 extMath: false
 
 extCount: false
+
 
