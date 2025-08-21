@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/static/font/GolosText-Regular.woff2') format('woff2'),
+       url('/static/font/GolosText-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/static/font/GolosText-Bold.woff2') format('woff2'),
+       url('/static/font/GolosText-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 html {
   color: #000000;
   background: #ffffff;
@@ -8,7 +22,7 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Golos Text,Helvetica,sans-serif;
+  font-family: Golos Text, sans-serif;
   font-stretch: normal;
   font-feature-settings: "kern" on,"liga" on,"calt" on,"tnum" off,"case" off,"rlig" on,"zero" off,"ss01" off;
   overflow-y: overlay;
