@@ -153,12 +153,15 @@ input:-webkit-autofill {
 .social-links {
   display: flex;
   gap: 10px;
+  writing-mode: vertical-lr;
 }
 .footer a {
-  text-decoration: underline;
   color: #000000;
   padding: 0 4px;
   white-space: nowrap;
+}
+.footer a:hover {
+  color: #242424;
 }
 .footer-btn {
   position: fixed;
