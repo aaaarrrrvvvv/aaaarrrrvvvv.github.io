@@ -177,8 +177,6 @@ input:-webkit-autofill {
 }
 .ner {
     writing-mode: vertical-lr;
-  display: flex;
-  align-items: flex-start;
 }
 .footer-btn i {
   font-size: 22px;
