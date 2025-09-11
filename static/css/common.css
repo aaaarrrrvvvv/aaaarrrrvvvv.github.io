@@ -151,8 +151,9 @@ input:-webkit-autofill {
 }
 
 .social-links {
-  display: flex;
+  display: inline-block;
   gap: 10px;
+  
 }
 .footer a {
   color: #000000;
