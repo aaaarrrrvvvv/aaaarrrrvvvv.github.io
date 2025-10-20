@@ -181,6 +181,8 @@ input:-webkit-autofill {
 }
 .digits {
 text-orientation: upright;
+display: inline-block;   
+transform: translateX(-0.3em);
 }
 .footer-btn i {
   font-size: 22px;
