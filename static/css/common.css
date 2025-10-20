@@ -179,9 +179,9 @@ input:-webkit-autofill {
 .ner {
     writing-mode: vertical-lr;
 }
-.digits {
+.digit {
   display: inline-block;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   transform-origin: center;
 }
 .footer-btn i {
