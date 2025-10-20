@@ -179,10 +179,8 @@ input:-webkit-autofill {
 .ner {
     writing-mode: vertical-lr;
 }
-.digit {
-  display: inline-block;
-  transform: rotate(-90deg);
-  transform-origin: center;
+.digits {
+text-orientation: upright;
 }
 .footer-btn i {
   font-size: 22px;
