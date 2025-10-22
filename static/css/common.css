@@ -12,6 +12,13 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/static/font/GolosText-Medium.woff2') format('woff2'),
+       url('/static/font/GolosText-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
 html {
   color: #000000;
   background: #ffffff;
