@@ -232,7 +232,7 @@ blog.addLoadEvent(function () {
   )
   ckeckToShow()
 })
-
+/*
 blog.addLoadEvent(function () {
   if (!document.querySelector('.page-post')) {
     return
@@ -354,7 +354,7 @@ blog.addLoadEvent(function () {
     }, 0)
   }
 })
-
+*/
 blog.addLoadEvent(function () {
   const $el = document.querySelector('.footer-btn.theme-toggler')
   const $icon = $el.querySelector('.svg-icon')
