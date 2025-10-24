@@ -122,10 +122,12 @@ input:-webkit-autofill {
   transform: scaleX(1);
 }
 .header {
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
 }
 .header .logo {
   flex-shrink: 0;
@@ -152,9 +154,9 @@ input:-webkit-autofill {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
-  padding: 25px 0;
+  padding: 10px 0;
 }
 
 .social-links {
@@ -233,7 +235,7 @@ transform: translateX(-0.3em);
 }
 @media screen and (max-width: 560px) {
   .header {
-    padding: 35px 0 20px 0;
+    padding: 10px 0;
     justify-content: flex-start;
   }
   .header .menu {
@@ -242,6 +244,6 @@ transform: translateX(-0.3em);
   }
   .header .menu a {
     margin: 2px 5px;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
