@@ -49,7 +49,7 @@
 .page-post a {
   color: #000000;
   margin: 0 2px;
-  border-bottom: 0.5px dashed #000000;
+  border-bottom: 1px dashed #000000;
 }
 .page-post strong,
 .page-post b {
@@ -75,7 +75,6 @@
   max-width: 100%;
   margin: 0 auto;
   height: auto;
-  box-shadow: 0 0 5px #e0e0e0;
 }
 .page-post img[alt='line'] {
   display: inline-block;
