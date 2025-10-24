@@ -4,12 +4,12 @@
   letter-spacing: 0.01em;
 }
 .page-post .title {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
   color: #000000;
 }
 .page-post .subtitle {
-  font-size: 17px;
+  font-size: 16px;
   color: #000000;
 }
 .page-post .post > * {
@@ -156,7 +156,7 @@
 }
 @media screen and (max-width: 560px) {
   .page-post {
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0.015em;
   }
   .page-post pre code {
