@@ -22,7 +22,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 2px;
+  padding-top: 3px;
 }
 .list-post li .date {
   color: #000000;
@@ -48,7 +48,7 @@
   overflow: visible; 
   text-overflow: clip; 
   word-break: break-word;
-  padding: 2px 0px;
+  padding: 3px 0px;
 }
 .list-post li .title a {
   font-size: 18px;
